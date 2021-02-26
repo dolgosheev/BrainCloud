@@ -3,6 +3,6 @@ Solution contains some userful things
 
 *it was made just for education*
 
-#### Events
+#### Events (C#)
 > - Interfaces 
 > - Events (EventHandler<T>)
