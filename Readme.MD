@@ -9,7 +9,7 @@ Solution contains some userful things
 
 
 ##### Helpful links
-> [must have Metanit](https://metanit.com/) | 
-> [must have Microsoft](https://docs.microsoft.com/ru-ru/dotnet/api/) | 
-> [.net Snippets](https://www.dotnetperls.com/) | 
-> [brain killer](http://rosettacode.org/wiki/Category:Programming_Tasks/)
+[must have Metanit](https://metanit.com/) | 
+[must have Microsoft](https://docs.microsoft.com/ru-ru/dotnet/api/) | 
+[.net Snippets](https://www.dotnetperls.com/) | 
+[brain killer](http://rosettacode.org/wiki/Category:Programming_Tasks/)
