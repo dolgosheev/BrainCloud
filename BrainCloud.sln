@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDictionary", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollection", "ObservableCollection\ObservableCollection.csproj", "{22E773BB-8B72-46A5-8159-C78D70003155}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{1162B084-F5EE-421B-AE16-9DEEBAAD0B7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{22E773BB-8B72-46A5-8159-C78D70003155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E773BB-8B72-46A5-8159-C78D70003155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E773BB-8B72-46A5-8159-C78D70003155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1162B084-F5EE-421B-AE16-9DEEBAAD0B7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1162B084-F5EE-421B-AE16-9DEEBAAD0B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1162B084-F5EE-421B-AE16-9DEEBAAD0B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1162B084-F5EE-421B-AE16-9DEEBAAD0B7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
