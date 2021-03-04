@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPSend_ClientSide", "TCPSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentDictionary", "ConcurrentDictionary\ConcurrentDictionary.csproj", "{50B945A1-D0D3-47AA-A9A6-F378CD9EC8B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObservableCollection", "ObservableCollection\ObservableCollection.csproj", "{22E773BB-8B72-46A5-8159-C78D70003155}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{50B945A1-D0D3-47AA-A9A6-F378CD9EC8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50B945A1-D0D3-47AA-A9A6-F378CD9EC8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50B945A1-D0D3-47AA-A9A6-F378CD9EC8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E773BB-8B72-46A5-8159-C78D70003155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E773BB-8B72-46A5-8159-C78D70003155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E773BB-8B72-46A5-8159-C78D70003155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E773BB-8B72-46A5-8159-C78D70003155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
