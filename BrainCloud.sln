@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamReader", "StreamReade
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "networkAdapter", "networkAdapter\networkAdapter.csproj", "{A3852E00-7324-4021-8DCE-70C3E9C64B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDOS_Attack", "DDOS_Attack\DDOS_Attack.csproj", "{6BD6C56C-EDB2-4616-8623-A1C8B397ED30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDOS_Attack", "DDOS_Attack\DDOS_Attack.csproj", "{6BD6C56C-EDB2-4616-8623-A1C8B397ED30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateTemplates", "DelegateTemplates\DelegateTemplates.csproj", "{A7EFD6E9-A5CD-4A7A-B477-B7832628149C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{6BD6C56C-EDB2-4616-8623-A1C8B397ED30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BD6C56C-EDB2-4616-8623-A1C8B397ED30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BD6C56C-EDB2-4616-8623-A1C8B397ED30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EFD6E9-A5CD-4A7A-B477-B7832628149C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EFD6E9-A5CD-4A7A-B477-B7832628149C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EFD6E9-A5CD-4A7A-B477-B7832628149C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EFD6E9-A5CD-4A7A-B477-B7832628149C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
