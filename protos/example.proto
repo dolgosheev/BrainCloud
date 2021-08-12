@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package ProtoInterAction;
+
+service TestClass {
+	// Sends a greeting
+	rpc SayHello (HelloRequest) returns (HelloReply) {}
+	rpc Auth (.ProtoInterAction.ClientData) returns (.ProtoInterAction.ServerAnswer) {} ;
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+	string name = 1;
+}
+
+// The response message containing the greetings
+message HelloReply {
+	string message = 1;
+}
+
+message ClientData{
+	int64  clientId = 1;
+	string clientName = 2;
+	string clientPassword = 3;
+}
+
+message ServerAnswer{
+	string answer = 1;
+	bool status = 2;
+}
