@@ -2,3 +2,4 @@
 .vs/BrainCloud/v16/.suo
 **/bin/Debug/**
 **/obj/**
+.idea/.idea.BrainCloud/.idea
