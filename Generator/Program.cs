@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Linq;
 
+using BenchmarkDotNet.Running;
+
 namespace Generator
 {
     internal static class Program
@@ -9,6 +11,8 @@ namespace Generator
         {
             var generator = new Generator();
             Console.WriteLine(generator.Generate(35, additionalSymbols: "!@#$%*(&*(!&)@$&_!)(*@$".ToArray()));
+            
+            BenchmarkRunner.Run<Benchmark>();
         }
     }
 }

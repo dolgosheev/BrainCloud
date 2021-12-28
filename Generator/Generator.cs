@@ -2,10 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+using BenchmarkDotNet.Attributes;
+
 namespace Generator
 {
     public class Generator
     {
+        
         public string Generate(byte length,
             bool digits = true,
             bool upperCase = true,
@@ -42,7 +45,7 @@ namespace Generator
             );
         }
         
-        private string GenerateTrivial(byte length,
+        public string GenerateTrivial(byte length,
             bool digits = true,
             bool upperCase = true,
             bool lowerCase = true,
