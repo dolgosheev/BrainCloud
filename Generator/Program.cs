@@ -8,10 +8,46 @@ namespace Generator
     {
         private static void Main()
         {
-            Console.WriteLine($"Generated code : {Generate(26, additionalSymbols: "!@#$%^&*()+_".ToArray())}");
+            Console.WriteLine(Generate(35,additionalSymbols:"!@#$%*(&*(!&)@$&_!)(*@$".ToArray()));
         }
 
         public static string Generate(byte length,
+            bool digits = true,
+            bool upperCase = true,
+            bool lowerCase = true,
+            params char[] additionalSymbols)
+        {
+
+            Span<int> generalSpan = new Span<int>( );
+            
+            if (digits) /* 0-9 */
+                UpdateResult(ref generalSpan, 48, 10);
+                
+            if (upperCase) /* A-Z */
+                UpdateResult(ref generalSpan, 65, 26);
+
+            if (lowerCase) /* a-z */
+                UpdateResult(ref generalSpan, 97, 26);
+
+            if (additionalSymbols.Length > 0) /* your symbols */
+            {
+                var swapedSpan = additionalSymbols.Select(x => (int) x).ToArray().AsSpan();
+                UpdateResult(ref generalSpan,ref swapedSpan);
+                swapedSpan.Clear();
+            }
+            
+            if (generalSpan.Length <= 0)
+                return string.Empty;
+            
+            return new string(
+                Enumerable
+                    .Repeat(generalSpan.ToArray().Select(x => (char) x).Distinct().ToArray(), length)
+                    .Select(x => x[new Random().Next(x.Length)])
+                    .ToArray()
+            );
+        }
+        
+        public static string GenerateTrivial(byte length,
             bool digits = true,
             bool upperCase = true,
             bool lowerCase = true,
@@ -42,6 +78,28 @@ namespace Generator
                     .Select(x => x[new Random().Next(x.Length)])
                     .ToArray()
             );
+        }
+        
+        private static void UpdateResult(ref Span<int> span, int asciiCode, int asciiCodeLength)
+        {
+            var newSpan = Enumerable.Range(asciiCode, asciiCodeLength).ToArray().AsSpan();
+            UpdateResult(ref span,ref newSpan);
+        }
+
+        private static void UpdateResult(ref Span<int> span,ref Span<int> newSpan)
+        {
+            Span<int> generalSpanCopy = new Span<int>( new int[span.Length + newSpan.Length] );
+                
+            span.CopyTo(generalSpanCopy);
+            newSpan.CopyTo(generalSpanCopy.Slice(span.Length,newSpan.Length));
+                
+            unsafe
+            {
+                fixed (int* ptr = generalSpanCopy)
+                {
+                    span = new Span<int>(ptr, generalSpanCopy.Length);
+                }
+            }
         }
     }
 }
