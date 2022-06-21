@@ -6,6 +6,7 @@ using Generator;
 
 namespace Generator
 {
+    [MemoryDiagnoser]
     public class Benchmark
     {
         Generator generator = new Generator();
