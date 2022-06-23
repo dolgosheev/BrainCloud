@@ -37,4 +37,12 @@ DefaultJob : .NET 6.0.2 (6.0.222.6406), Arm64 RyuJIT
 |------------------------------------------ |---------:|--------:|--------:|----------:|
 |              'Without await Task.Yield()' | 411.8 ms | 2.28 ms | 2.14 ms |      1 KB |
 | 'With await Task.Yield() & Canceled Task' | 258.0 ms | 2.41 ms | 2.26 ms |     41 KB |
+
+// * Without Canceled Task *
+
+|                                    Method |     Mean |   Error |  StdDev | Allocated |
+|------------------------------------------ |---------:|--------:|--------:|----------:|
+|              'Without await Task.Yield()' | 409.5 ms | 4.22 ms | 3.95 ms |      1 KB |
+| 'With await Task.Yield() & Canceled Task' | 257.6 ms | 3.03 ms | 2.83 ms |      2 KB |
+
 </pre>
