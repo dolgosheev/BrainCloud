@@ -1,34 +1,22 @@
 ﻿using System;
 
-using Events.Classes;
+using Events.Entities;
 using Events.Interfaces;
 
-namespace Events
+
+Humans.HumanCreated += (sender, human) =>
 {
-    internal static class Program
-    {
-        private static void Main()
-        {
-            Humans.HumanEditions += Human_HumanEditions;
-            Humans.HumanCreated += Humans_HumanCreated;
+    Console.WriteLine($"Created {human.FirstName} {human.LastName} age {human.Age}");
+};
+Humans.HumanEditions += (sender, human) =>
+{
+    Console.WriteLine($"Age for {human.FirstName} {human.LastName} has been changed to {human.Age}");
+};
 
-            IHuman men = new Mens("Alexander", "Dolgosheev", 33);
-            IHuman women = new Womens("Marina", "Dolgosheeva", 32);
+IHuman men = new Mens("Alexander", "Dolgosheev", 33);
+IHuman women = new Womens("Marina", "Dolgosheeva", 32);
 
-            men.PlusYearAge();
-            women.PlusYearAge();
+men.PlusYearAge();
+women.PlusYearAge();
 
-            Console.ReadKey();
-        }
-
-        private static void Humans_HumanCreated(object sender, IHuman e)
-        {
-            Console.WriteLine($"Created {e.Fname} {e.Sname} age {e.Age}");
-        }
-
-        private static void Human_HumanEditions(object sender, IHuman e)
-        {
-            Console.WriteLine($"Age for {e.Fname} {e.Sname} has been changed to {e.Age}");
-        }
-    }
-}
+Console.ReadKey();

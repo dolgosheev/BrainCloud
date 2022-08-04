@@ -2,8 +2,8 @@
 {
     internal interface IHuman
     {
-        public string Fname { get; }
-        public string Sname { get; }
+        public string FirstName { get; }
+        public string LastName { get; }
         public int Age { get; }
 
         public void PlusYearAge();
