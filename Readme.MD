@@ -39,6 +39,12 @@ Solution contains some userful things
 > - Linq (ForEach)
 
 
+<hr>
+
+## CollectionObserve ( .net6 ) ##
+### used classes ###
+> - ObservableCollection
+> - NotifyCollectionChangedEventArgs
 
 ##### Helpful links
 [must have Metanit](https://metanit.com/) | 
