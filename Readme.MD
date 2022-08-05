@@ -1,23 +1,13 @@
 ﻿[![Bugs](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=bugs&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Code Smells](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=code_smells&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Coverage](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=coverage&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Duplicated Lines (%)](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=duplicated_lines_density&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Lines of Code](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=ncloc&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Maintainability Rating](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=sqale_rating&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Quality Gate Status](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=alert_status&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Reliability Rating](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=reliability_rating&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Security Rating](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=security_rating&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Technical Debt](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=sqale_index&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
-
 [![Vulnerabilities](https://test.paradox-server.ru/api/project_badges/measure?project=CatalogService&metric=vulnerabilities&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
 
 
