@@ -1,4 +1,5 @@
-﻿[![Quality Gate Status](https://test.paradox-server.ru/api/project_badges/measure?project=BrainCloud&metric=alert_status)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
+﻿[![Quality Gate Status](https://test.paradox-server.ru/api/project_badges/measure?project=BrainCloud&metric=alert_status&token=d98c0ce3872136bc4b0449e655859295a516edbf)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
+
 
 ### Description
 Solution contains some userful things
