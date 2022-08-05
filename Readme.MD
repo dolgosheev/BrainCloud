@@ -5,7 +5,8 @@ Solution contains some userful things
 
 <hr>
 
-#### AsynchronousOperations ( .net6 )
+## AsynchronousOperations ( .net6 ) ##
+### used classes ###
 > - Timer 
 > - Parallel
 > - Asynchronous operations
@@ -14,11 +15,12 @@ Solution contains some userful things
 
 <hr>
 
-#### Generator ( .net6 )
+## Generator ( .net6 ) ##
+### used classes ###
 > - Benchmark ( [MemoryDiagnoser] )
 > - Enumerable
 
-Result ±
+### Result ± ###
 ```
 |               Method |     Mean |     Error |    StdDev |  Gen 0 | Allocated |
 |--------------------- |---------:|----------:|----------:|-------:|----------:|
@@ -26,6 +28,16 @@ Result ±
 | 'Use Array & Concat' | 9.800 us | 0.1916 us | 0.4736 us | 3.3875 |      7 KB |
 
 ```
+
+<hr>
+
+## NetworkInfo ( .net6 ) ##
+### used classes ###
+> - IPGlobalProperties 
+> - NetworkInterface
+> - StringBuilder
+> - Linq (ForEach)
+
 
 
 ##### Helpful links
