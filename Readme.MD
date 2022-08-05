@@ -1,4 +1,6 @@
-﻿### Description
+﻿[![Quality Gate Status](https://test.paradox-server.ru/api/project_badges/measure?project=BrainCloud&metric=alert_status)](https://test.paradox-server.ru/dashboard?id=BrainCloud)
+
+### Description
 Solution contains some userful things
 
 *it was made just for education*
