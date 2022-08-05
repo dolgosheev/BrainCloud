@@ -3,16 +3,9 @@ using System.Linq;
 
 using BenchmarkDotNet.Running;
 
-namespace Generator
-{
-    internal static class Program
-    {
-        private static void Main()
-        {
-            var generator = new Generator();
-            Console.WriteLine(generator.Generate(35, additionalSymbols: "!@#$%*(&*(!&)@$&_!)(*@$".ToArray()));
-            
-            BenchmarkRunner.Run<Benchmark>();
-        }
-    }
-}
+using Generator;
+
+Builder generator = new();
+Console.WriteLine(generator.Generate(35, additionalSymbols: "!@#$%*(&*(!&)@$&_!)(*@$".ToArray()));
+
+BenchmarkRunner.Run<Benchmark>();
