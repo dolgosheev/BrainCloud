@@ -4,7 +4,7 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-        <LangVersion>10</LangVersion>
+        <Authors>Alexander Dolgosheev</Authors>
     </PropertyGroup>
 
     <ItemGroup>

@@ -2,12 +2,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Authors>Alexander Dolgosheev</Authors>
-    <Company>NeoLab</Company>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <Version>1.0.1</Version>
-    <RootNamespace>networkAdapter</RootNamespace>
   </PropertyGroup>
 
 </Project>
